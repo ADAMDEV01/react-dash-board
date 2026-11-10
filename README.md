@@ -1,32 +1,43 @@
-# React + TypeScript + Vite
+# React Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive analytics dashboard built with React and TypeScript. It presents key metrics and data visualizations in a reusable dashboard interface.
 
-Currently, two official plugins are available:
+## Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- TypeScript
+- Vite
+- Recharts
 
-## React Compiler
+## Getting started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+Run the source linter with:
+
+```bash
+npm run lint
+```
+
+## Skills demonstrated
+
+- React component-based UI development.
+- TypeScript for typed frontend code.
+- Data visualization with Recharts.
+- Dashboard layout and reusable interface composition.
+- Vite development and production build workflows.
+- Static code analysis with Oxlint.
+
+## Repository
+
+[ADAMDEV01/react-dash-board](https://github.com/ADAMDEV01/react-dash-board)
